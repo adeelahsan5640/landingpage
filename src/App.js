@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className='banner'>
+        <div className='navbar'>
+          <h1 className='logo'>Interior</h1>
+          <ul>
+            <li>
+              <a href=''>Home</a>
+            </li>
+            <li>
+              <a href=''>Bedroom</a>
+            </li>
+            <li>
+              <a href=''>Dinnig</a>
+            </li>
+            <li>
+              <a href=''>Kit</a>
+            </li>
+            <li>
+              <a href=''>Backyard</a>
+            </li>
+          </ul>
+        </div>
+        <div className='content'>
+          <h1>DESIGN YOUR HOUSE</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab
+            deleniti facere <br />
+            non sit quos illo velit porro unde nesciunt necessitatibus explicabo
+            qui.
+          </p>
+          <div>
+            <button type='button'>
+              <span></span>WATCH MORE
+            </button>
+            <button type='button'>
+              <span></span>SUBSCRIBE
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
